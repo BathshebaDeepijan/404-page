@@ -1,0 +1,42 @@
+html {background-image: url(Background.png);}
+
+header {position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+section{
+  
+    position: relative;
+    top: 200px;
+    left: 250px;
+    font-size: xx-large;
+    color: red;
+    display: inline-block;
+    background-color: rgba(15, 4, 4, 0.897);
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {background-color: rgb(197, 42, 114);}
+    20% {background-color: magenta;}
+    40%{background-color: blueviolet;}
+    60% {background-color: rgb(67, 10, 224);}
+    80% {background-color: cyan;}
+    100%{background-color: black;}
+  }
+
+p { text-align: center;
+   
+}
+button{display: inline-block;
+background-color: blue;
+color: cyan;
+text-align: center;
+border-radius: 10px;
+border: 4px double #be0beb;
+position: relative;
+top: 350px;
+left: 700px;}
